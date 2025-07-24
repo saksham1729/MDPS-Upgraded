@@ -9,7 +9,7 @@ import streamlit as st
 import joblib
 
 
-st.write(f"💡 scikit-learn version on Streamlit Cloud: {sklearn.__version__}")
+
 try:
     drug_model = joblib.load("mds/drugc_model.pkl")
 except Exception as e:
