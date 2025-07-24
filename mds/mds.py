@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-drug_model = joblib.load('drugc_model.pkl')
+drug_model = joblib.load("mds/drugc_model.pkl")
 
 
 
