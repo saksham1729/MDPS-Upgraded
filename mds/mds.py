@@ -11,7 +11,7 @@ import joblib
 
 
 try:
-    drug_model = joblib.load("mds/drugc_model.pkl")
+    drug_model = joblib.load("drugc_model.pkl")
 except Exception as e:
     st.error(f"❌ Failed to load model: {e}")
 
