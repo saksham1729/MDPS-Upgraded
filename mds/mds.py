@@ -5,10 +5,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-import sklearn
 import streamlit as st
-
-st.write(f"💡 scikit-learn version on Streamlit Cloud: {sklearn.__version__}")
+import joblib
 
 
 drug_model = joblib.load("mds/drugc_model.pkl")
