@@ -15,8 +15,7 @@ try:
 except Exception as e:
     st.error(f"❌ Failed to load model: {e}")
 
-
-drug_model = joblib.load("drugc_model.pkl")
+st.stop()
 
 
 
